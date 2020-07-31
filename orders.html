@@ -1,0 +1,489 @@
+  <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Online shop</title>
+  </head>
+  <body>
+    <br>
+    <div class="header">
+      <div class="container"</div>
+         <div class="row">
+             <div class="col-3 d-none d-lg-block">
+               <h5>WELCOME</h5>
+             </div>
+             <div class="col-3 d-none d-lg-block">
+               <h5>tel. +31411223344</h5> 
+             </div>
+             <div class="col-6 col-lg-2">
+                <select class="custom-select">
+                  <option selected>ENG</option>
+                  <option value="">RU</option>
+                  <option value="">AM</option>
+                </select>
+             </div>
+             <div class="col-6 col-lg-2">
+                <select class="custom-select">
+                  <option selected>$</option>
+                  <option value="1">€</option>
+                  <option value="2">֏</option>
+                  <option value="3">₽</option>
+                </select>
+             </div>
+             <div class="col-2 d-none d-lg-block">
+                <button type="button" class="btn btn-danger">
+  Wishlist <span class="badge badge-light">4</span>
+</button>
+             </div>
+         </div>
+        <br>
+         <nav class="navbar navbar-dark bg-dark">
+  <a href="index.html" class="navbar-brand"><img src="https://www.freepngimg.com/thumb/online_shopping/5-2-online-shopping-picture.png" alt="" style="width: 40px;"></a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2  d-none d-lg-block" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-danger my-2 my-sm-0 d-none d-lg-block" type="submit">Search</button>
+  </form>
+           <div class="dropdown">
+  <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    My Account
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#loginModal">Login</a>
+    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#registrationModal">Register</a>
+    <a class="dropdown-item" href="account.html">My Profile</a>
+  </div>
+</div>
+</nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Electronics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="shop.html">Phones</a>
+                <a class="dropdown-item" href="#">Computers</a>
+                <a class="dropdown-item" href="#">Tablets</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+               Sports
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="#">Fitness</a>
+                <a class="dropdown-item" href="#">Sports Clothing</a>
+                <a class="dropdown-item" href="#">Sports Tecnalogy</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                 Garden
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Plants</a>
+                <a class="dropdown-item" href="#">Barbecues</a>
+                <a class="dropdown-item" href="#">Pools</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                 Fashion
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Clothes</a>
+                <a class="dropdown-item" href="#">Shoes</a>
+                <a class="dropdown-item" href="#">Accessories</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                 Toys
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Dolls</a>
+                <a class="dropdown-item" href="#">Cars</a>
+                <a class="dropdown-item" href="#">Other</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Kitchen
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Dishwashers</a>
+                <a class="dropdown-item" href="#">Hobs</a>
+                <a class="dropdown-item" href="#">Freezers</a>
+            </li>
+          </ul>
+
+             </div>
+            
+          </div>
+
+    </div>
+    <br>
+<div class="content">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="text-align: center;">
+      <div class="row">
+        <div class="ml-auto mr-auto">
+          <span style="font-size: 20px;">Lilit Mkhitaryan</span>
+          <p style="text-align: center;">lilit.mkhitaryan.y@tumo.org</p>
+          <form>
+            <a href="account.html"><button type="button" class="btn btn-outline-danger">My account</button></a>
+            <a href="orders.html"><button type="button" class="btn btn-outline-danger active">My order</button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <br>
+    <br>
+    <div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="row">
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+          <a href="" style="color: black;">Profile</a>
+          <ul>
+            <a href=""><li>Billing an Shipping</li></a>
+            <a href=""><li>My Payment Options</li></a>
+            <a href=""><li>Update Email Subscription</li></a>
+            <a href=""><li>Gift/Rewards Card balance</li></a>
+            <a href=""><li>My Events</li></a>
+            <a href=""><li>Shipping Accounts</li></a>
+          </ul>
+          <a href="" style="color: black;">Link</a>
+          <a href=""></a><ul><a href="">
+            </a><a href=""><li>My Orders</li></a>
+            <a href=""><li>Cart</li></a>
+            <a href=""><li>My Wish cart</li></a>
+            <a href=""><li>Tax Exempt</li></a>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9" style="border: 1px solid rgba(0,0,0,.125);">
+          <span style="font-size: 25px; color: #dc3545;">Account detals</span>
+          <p style="font-size: 15px; color: gray;">Update your countact information.</p>
+            <div><br>
+            <table class="table bg-white">
+              <tbody style="text-align: left;">
+                <tr>
+                  <td>Language</td>
+                  <td>...</td>
+                  <td><select class="form-control"><option selected="">ENG</option><option value="1">РУС</option><option value="2">ՀԱՅ</option></select></td>
+                </tr>
+                <tr>
+                  <td>Currency</td>
+                  <td>...</td>
+                  <td><select class="form-control"><option selected="">$</option><option value="1">֏</option><option value="2">₽</option></select></td>
+                </tr>
+               </tbody>
+            </table>
+          </div>
+          <div><br>
+            <table class="table bg-white">
+              <tbody style="text-align: left;">
+                <tr>
+                  <td>+374 ** ** ** **</td>
+                  <td style="text-align: center;"><a href="" data-toggle="modal" data-target="#exampleModal4">Edit</a></td>
+                  <td style="text-align: center;">13.08.2020</td>
+                </tr>
+                <tr>
+                  <td>Lilit Mkhitaryan</td>
+                  <td style="text-align: center;"><a href="" data-toggle="modal" data-target="#exampleModal">Edit</a></td>
+                  <td style="text-align: center;">13.08.2020</td>
+                </tr>
+                <tr>
+                  <td>lilit,mkhitaryan.y@tumo.org</td>
+                  <td style="text-align: center;"><a href="" data-toggle="modal" data-target="#exampleModal1">Edit</a></td>
+                  <td class="mt-auto mb-auto" style="text-align: center;">13.08.2020</td>
+                </tr>
+                <tr>
+                  <td>***********</td>
+                  <td style="text-align: center;"><a href="" data-toggle="modal" data-target="#exampleModal2">Edit</a></td>
+                  <td style="text-align: center;">13.08.2020</td>
+                 </tr>
+               </tbody>
+            </table>
+          </div>
+          <span style="font-size: 25px; color: #dc3545;;">Billing an Shipping</span>
+          <div><br>
+            <table class="table bg-white">
+              <tbody style="text-align: left;">
+                <tr>
+                  <td>Lilit Mkhitaryan | Paruyr Sevak St | ARM0083 | Yerevan 3233 AM</td>
+                  <td><a href="" class="mt-auto mb-auto" data-toggle="modal" data-target="#exampleModal3">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                </tr>
+                <tr>
+                  <td>Lilit Mkhitaryan | Koryun St | ARM4213 | Yerevan 4333 AM</td>
+                  <td><a href="" class="mt-auto mb-auto" data-toggle="modal" data-target="#exampleModal3">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                </tr>
+                <tr>
+                  <td>Lilit Mkhitaryan | David Anaxti St | ARM0125 | Yerevan 3435 AM</td>
+                  <td><a href="" class="mt-auto mb-auto" data-toggle="modal" data-target="#exampleModal3">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                </tr>
+                <tr>
+                  <td>Lilit Mkhitaryan | Araratyan St | ARM0083 | Yerevan 1243 AM</td>
+                  <td><a href="" class="mt-auto mb-auto" data-toggle="modal" data-target="#exampleModal3">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                </tr>
+               </tbody>
+            </table>
+          </div><hr>
+          <span style="font-size: 25px; color: #dc3545;">Payment options</span>
+          <div><br>
+            <table class="table bg-white">
+              <tbody style="text-align: center;">
+                <tr>
+                  <td style="text-align: left;">Lilit Mkhitaryan | 27Y</td>
+                  <td><a href="" data-toggle="modal" data-target="#exampleModal5">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                  <td>13.08.2020</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left;">XXXX-XXXX-XXXX-XXXX</td>
+                  <td><a href="" data-toggle="modal" data-target="#exampleModal5">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                  <td>27.07.2020</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left;">07/24</td>
+                  <td><a href="" data-toggle="modal" data-target="#exampleModal5">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                  <td>03.06.2020</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left;">XXX</td>
+                  <td><a href="" data-toggle="modal" data-target="#exampleModal5">Edit </a><span>/</span><a href="" data-toggle="modal" data-target="#exampleModalremove"> Remove</a></td>
+                  <td>21.07.2020</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <span style="font-size: 25px;color: #dc3545;">Guard</span>
+          <p style="color: gray;">Defend...</p><hr>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <img src="https://stepanhk.github.io/imgshop/img/png-transparent-anti-virus-application-icon-angle-brand-green-shield-ok-angle-logo-small-flat-removebg-preview%20(2).png" class=" img-fluid" style="padding: 30px;">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-auto mb-auto">
+                  <span style="font-size: 25px; color: #dc3545;">Your email address and any information is protected.</span>
+                  <p style="font-size: 15px; color: gray;">Unlike many similar groups, we do not make any distinctions based on the geographical location of users. Although our community specializes in news in Russian and in the Russian region as a whole, we do not mind that users from other countries join our discussions.</p>
+                </div>
+              </div><hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <img src="https://stepanhk.github.io/imgshop/img/png-transparent-anti-virus-application-icon-angle-brand-green-shield-ok-angle-logo-small-flat-removebg-preview%20(2).png" class=" img-fluid" style="padding: 30px;">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-auto mb-auto">
+                  <span style="font-size: 25px; color: #dc3545;">Your telephone number and payment information is protected.</span>
+                  <p style="font-size: 15px; color: gray;">Unlike many similar groups, we do not make any distinctions based on the geographical location of users. Although our community specializes in news in Russian and in the Russian region as a whole, we do not mind that users from other countries join our discussions.</p>
+                </div>
+              </div><hr>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+              <div class="row">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                  <img src="https://stepanhk.github.io/imgshop/img/png-transparent-anti-virus-application-icon-angle-brand-green-shield-ok-angle-logo-small-flat-removebg-preview%20(2).png" class=" img-fluid" style="padding: 30px;">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 mt-auto mb-auto">
+                  <span style="font-size: 25px; color: #dc3545;">Your countact inforamtion is protected. 2/2</span>
+                  <p style="font-size: 15px; color: gray;">Unlike many similar groups, we do not make any distinctions based on the geographical location of users. Although our community specializes in news in Russian and in the Russian region as a whole, we do not mind that users from other countries join our discussions.</p>
+                </div>
+              </div><hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+<br>
+    <br>
+  <div class="footer">
+      <div class="container">
+  <div class="row">
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Contact us
+    </a>
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Live chat
+    </a>
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Shipping
+    </a>
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Term & conditions
+    </a>
+  </div>
+     <div class="row">
+           <div class = "col-lg d-none d-lg-block col pr-0 border">
+            <ul class="list-group">
+                <h5 class=""> Group 1</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block border">
+            <ul class="list-group">
+                <h5 class=""> Group 2</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block  border">
+            <ul class="list-group">
+                <h5 class=""> Group 3</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block  border">
+            <ul class="list-group">
+                <h5 class=""> Group 4</h5>
+                <a href="#" class="action">link 1</a>
+               <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block border">
+            <ul class="list-group">
+                <h5 class="">Group 5</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+
+    </div>
+        </div>
+  <div class="row bg-dark">
+    <div class="m-0 col-sm-12 col-lg-4 mt-sm-1 my-lg-4">
+      <p class="text-info m-0" style="color: #ffffff;"> Tumo Center For Creative Technologies</p>
+    </div>
+  </div>
+ </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<form>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer01">First name</label>
+      <input type="text" class="form-control" id="validationServer01">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control" id="validationServer02">
+    </div>
+  </div>
+ <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Verfity your password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button class="btn btn-danger" type="submit">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div> 
+    
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

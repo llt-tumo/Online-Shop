@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Online shop</title>
+  </head>
+  <body>
+    <br>
+    <div class="header">
+      <div class="container"</div>
+         <div class="row">
+             <div class="col-3 d-none d-lg-block">
+               <h5>WELCOME</h5>
+             </div>
+             <div class="col-3 d-none d-lg-block">
+               <h5>tel. +31411223344</h5> 
+             </div>
+            <div class="col-6 col-lg-2">
+                <select class="custom-select">
+                  <option selected>ENG</option>
+                  <option value="">RU</option>
+                  <option value="">AM</option>
+                </select>
+             </div>
+             <div class="col-6 col-lg-2">
+                <select class="custom-select">
+                  <option selected>$</option>
+                  <option value="1">€</option>
+                  <option value="2">֏</option>
+                  <option value="3">₽</option>
+                </select>
+             </div>
+             <div class="col-2 d-none d-lg-block">
+                <button type="button" class="btn btn-danger">
+  Wishlist <span class="badge badge-light">4</span>
+</button>
+             </div>
+         </div>
+        <br>
+         <nav class="navbar navbar-dark bg-dark">
+  <a href="index.html" class="navbar-brand"><img src="https://www.freepngimg.com/thumb/online_shopping/5-2-online-shopping-picture.png" alt="" style="width: 40px;"></a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2  d-none d-lg-block" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-danger my-2 my-sm-0 d-none d-lg-block" type="submit">Search</button>
+  </form>
+           <div class="dropdown">
+  <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    My Account
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#loginModal">Login</a>
+    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#registrationModal">Register</a>
+    <a class="dropdown-item" href="account.html">My Profile</a>
+  </div>
+</div>
+</nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Electronics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="shop.html">Phones</a>
+                <a class="dropdown-item" href="#">Computers</a>
+                <a class="dropdown-item" href="#">Tablets</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+               Sports
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="#">Fitness</a>
+                <a class="dropdown-item" href="#">Sports Clothing</a>
+                <a class="dropdown-item" href="#">Sports Tecnalogy</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                 Garden
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Plants</a>
+                <a class="dropdown-item" href="#">Barbecues</a>
+                <a class="dropdown-item" href="#">Pools</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                 Fashion
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Clothes</a>
+                <a class="dropdown-item" href="#">Shoes</a>
+                <a class="dropdown-item" href="#">Accessories</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                 Toys
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Dolls</a>
+                <a class="dropdown-item" href="#">Cars</a>
+                <a class="dropdown-item" href="#">Other</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Kitchen
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Dishwashers</a>
+                <a class="dropdown-item" href="#">Hobs</a>
+                <a class="dropdown-item" href="#">Freezers</a>
+            </li>
+          </ul>
+</nav>
+
+      </div>
+    </div>
+    <br>
+    <div class="content">
+      <div class="container">
+      <div class="alert alert-danger alert-dismissible fade show mx-auto" role="alert">
+ sales are so hot ( ͡° ͜ʖ ͡°)
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+        <br>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style=background-color:#cecece; >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+    <div class="carousel-inner d-none d-sm-none d-xl-block d-lg-block">
+    <div class="carousel-item active">
+      <div class="row"><div class="col col-xl-6 col-lg-6">
+      <img src="https://images.samsung.com/is/image/samsung/hk-en-galaxy-a71-a715-sm-a715fzkgtgy-213656252?$L2-Thumbnail$" class="d-block ml-auto img-fluid" alt="..." style="height: 250px;">
+      </div>
+      <div class="col col-xl-6 col-lg-6 m-auto">
+        <h4>SAMSUNG GALAXY A71</h4>
+        <p>$799</p>
+      <a class="btn btn-danger" href="card.html" role="button">Add to card</a>
+        <a class="btn btn-secondary" href="#" role="button">View</a>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row"><div class="col col-xl-6 col-lg-6">
+      <img src="https://www.windowscentral.com/sites/wpcentral.com/files/field/image/2020/06/playstation-5-vs.png" class="d-block ml-auto img-fluid" alt="..." style="height: 250px;">
+      </div>
+      <div class="col col-xl-6 col-lg-6 m-auto">
+        <h4>PlayStation 5</h4>
+        <p>$599</p>
+      <a class="btn btn-danger" href="card.html" role="button">Add to card</a>
+        <a class="btn btn-secondary" href="#" role="button">View</a>
+    </div>
+  </div>
+    </div>
+     <div class="carousel-item">
+      <div class="row"><div class="col col-xl-6 col-lg-6">
+      <img src="https://pngimg.com/uploads/macbook/macbook_PNG10.png" class="d-block ml-auto img-fluid" alt="..." style="height: 250px;">
+      </div>
+      <div class="col col-xl-6 col-lg-6 m-auto">
+        <h4>Mac Book Pro</h4>
+        <p>$1199</p>
+      <a class="btn btn-danger" href="card.html" role="button">Add to card</a>
+        <a class="btn btn-secondary" href="#" role="button">View</a>
+    </div>
+  </div>
+    </div>
+  </div>
+  <br>
+      </div>
+        <br>
+        <div>
+          <div class="row">
+          <h1 class="col-12" style="text-align: center; color:#6c757d;">DAILY DEALS</h1>
+        </div>
+          <div class="row">
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/61akco6V9wL._AC_SL1000_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">iPhone Charger YOKERSU</h5>
+    <p class="card-text">$12.99</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/71hoOvH8XOL._AC_SL1200_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">DAYBETTER Led Strip Lights</h5>
+    <p class="card-text">$25.99</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/71i4kZ2VgoL._AC_SL1500_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">YC YANCH Compatible with Apple Watch Band</h5>
+    <p class="card-text">$16.14</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/71mE6xBnNcL._AC_SL1500_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Adoric Ice Cube Trays Silicone Set</h5>
+    <p class="card-text">$11.88</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+          </div>
+          <br>
+        </div>
+        <br>
+        <div>
+          <div class="row">
+          <h1 class="col-12" style="text-align: center; color:#dc3545;">NEW ARRIVALS</h1>
+        </div>
+          <div class="row">
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/61W78Ila5CL._AC_SL1001_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Renoj Resistance Bands</h5>
+    <p class="card-text">$35.99</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/61J5xKj2%2BeL._AC_SL1000_.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Vansky Flashlight Black Light 51 </h5>
+    <p class="card-text">$12.99</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://shop.lenovo.ru/upload/resize_cache/iblock/cc9/1120_935_17f5c944b3b71591cc9304fac25365de2/cc98828166edf5e850a6c215793dda45.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Lenovo Ideapad</h5>
+    <p class="card-text">$749</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+            <div class="card col-6 col-lg-3" style="width: 18rem;">
+  <img src="https://resource.logitechg.com/content/dam/gaming/en/products/g935/g935-hero.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">G935 Wireless 7.1 Surround Sound LIGHTSYNC Gaming Headset</h5>
+    <p class="card-text">$59.99</p>
+    <a href="card.html" class="btn btn-danger">Add to card</a>
+  </div>
+</div>
+          </div>
+          <br>
+        </div>
+      </div>
+    </div>
+        
+
+    <div class="footer">
+      <div class="container">
+  <div class="row">
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Contact us
+    </a>
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Live chat
+    </a>
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Shipping
+    </a>
+    <a href="#" class="list-group-item list-group-item-action text-uppercase font-weight-bold text-center col-lg-3 col-sm-12">
+      Term & conditions
+    </a>
+  </div>
+     <div class="row">
+           <div class = "col-lg d-none d-lg-block col pr-0 border">
+            <ul class="list-group">
+                <h5 class=""> Group 1</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block border">
+            <ul class="list-group">
+                <h5 class=""> Group 2</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block  border">
+            <ul class="list-group">
+                <h5 class=""> Group 3</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block  border">
+            <ul class="list-group">
+                <h5 class=""> Group 4</h5>
+                <a href="#" class="action">link 1</a>
+               <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+              
+        </div>
+        <div class = "col-lg d-none d-lg-block border">
+            <ul class="list-group">
+                <h5 class="">Group 5</h5>
+                <a href="#" class="action">link 1</a>
+                <a href="#" class="=action">link 2</a>
+                <a href="#" class="=action">link 3</a>
+              </ul>
+
+    </div>
+        </div>
+  <div class="row bg-dark">
+    <div class="m-0 col-sm-12 col-lg-4 mt-sm-1 my-lg-4">
+      <p class="text-info m-0" style="color: #ffffff;"> Tumo Center For Creative Technologies</p>
+    </div>
+  </div>
+ </div>
+    </div>
+    
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<form>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer01">First name</label>
+      <input type="text" class="form-control" id="validationServer01">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control" id="validationServer02">
+    </div>
+  </div>
+ <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Verfity your password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button class="btn btn-danger" type="submit">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+    
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
